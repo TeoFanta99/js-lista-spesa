@@ -1,8 +1,15 @@
 // Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che si vedano) gli elementi della lista individualmente con un ciclo while.
 
+// BONUS: do la possibilità all’utente di inserire voci nella lista
+
+
 
 // selezione UL
 const ul = document.getElementById("lista-spesa");
+
+// selezione input e btn
+const addItem = document.getElementById("text");
+const btn = document.getElementById("add-button");
 
 // creare la lista della spesa
 const list = ["Latte", "Uova", "Insalata", "Acqua"];
@@ -25,3 +32,7 @@ while (i < list.length) {
 
     i++;
 }
+
+
+
+
