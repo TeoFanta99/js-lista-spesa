@@ -40,13 +40,14 @@ addBtn.addEventListener("click",
 
     function () {
 
-        addedItem = inputText.value;
+        addedText = inputText.value;
 
-        console.log(addedItem);
+        const addedElementLi = document.createElement("li");
 
-        
-        
+        addedElementLi.append(addedText);
 
+        ul.append(addedElementLi); 
+    
     }
 
 )
