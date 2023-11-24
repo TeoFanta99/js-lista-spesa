@@ -8,8 +8,8 @@
 const ul = document.getElementById("lista-spesa");
 
 // selezione input e btn
-const addItem = document.getElementById("text");
-const btn = document.getElementById("add-button");
+const inputText = document.getElementById("text");
+const addBtn = document.getElementById("add-button");
 
 // creare la lista della spesa
 const list = ["Latte", "Uova", "Insalata", "Acqua"];
@@ -32,6 +32,25 @@ while (i < list.length) {
 
     i++;
 }
+
+
+// aggiunta bottone per aggiungere altri "li" alla lista
+
+addBtn.addEventListener("click",
+
+    function () {
+
+        addedItem = inputText.value;
+
+        console.log(addedItem);
+
+        
+        
+
+    }
+
+)
+
 
 
 
